@@ -280,7 +280,7 @@ header .fa-bars {
 
 
 .teacher {
-  background: #f9f9f9;
+  background:#fff;
 }
 
 .teacher .card-container {
@@ -304,7 +304,7 @@ header .fa-bars {
   height: 50%;
   width: 100%;
   object-fit: cover;
-  filter: grayscale();
+  filter: grayscale(1%);
   transition: .2s;
 }
 
@@ -352,6 +352,18 @@ header .fa-bars {
   box-shadow: 0 8px 32px 0 #b4b7e0;
   backdrop-filter: blur( 20.0px );
 }
+.box1{
+  width: 95%;
+  flex-wrap: wrap;
+  display: grid;
+  padding: 100px;
+  background-color:ghostwhite;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+  margin: 30px;
+
+}
+
 .course .box-container .box:hover{
   
     -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
