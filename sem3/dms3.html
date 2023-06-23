@@ -17,12 +17,25 @@
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        .box1 {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+    
+        .box1 iframe {
+          margin: 10px;
+          max-width: 100%;
+          height: auto;
+        }
+      </style>
 </head>
 <body>
     <section id="course" class="course">
 
         <h1 class="heading">DISCRETE MATHEMATICAL STRUCTURES(MAT 203)</h3>
-            <h2 class="heading">4 CREDIT SUBJECT</h2>
+            <h5 class="title"><b> 4 CREDIT SUBJECT</b></h5>
 
 
         <div class="box-container">
@@ -85,3 +98,24 @@
         </section>    
 </body>
 </html>
+<script>
+    function adjustIframeSize() {
+      var iframes = document.getElementsByTagName('iframe');
+      var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+
+      for (var i = 0; i < iframes.length; i++) {
+        var iframe = iframes[i];
+        var iframeWidth = Math.min(viewportWidth - 20, 450); // Adjust the maximum width as needed
+        var iframeHeight = (iframeWidth / 450) * 250; // Maintain the aspect ratio
+
+        iframe.style.width = iframeWidth + 'px';
+        iframe.style.height = iframeHeight + 'px';
+      }
+    }
+
+    // Call the function initially
+    adjustIframeSize();
+
+    // Call the function whenever the window is resized
+    window.addEventListener('resize', adjustIframeSize);
+  </script>
