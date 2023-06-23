@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDUSTRIAL SAFETY ENGINEERING</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning platform_JECC</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        .box1 {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+    
+        .box1 iframe {
+          margin: 10px;
+          max-width: 100%;
+          height: auto;
+        }
+      </style>
+</head>
+<body>
+    <section id="course" class="course">
+
+        <h1 class="heading">INDUSTRIAL SAFETY ENGINEERING</h3>
+            <h5 class="title"><b>CREDIT-NIL</b></h5>
+            <h5 class="title"><b>MCN 401</b></h5>
+
+
+        <div class="box-container">
+            <div class="box">
+
+                <i class="fas fa-book"></i>
+                <h3><a href="dms3.html">MODULE 1</a></h3>
+                <h3 class ="title"><b>Safety introduction</b></h3>
+            </div>
+            <div class="box">
+
+                <i class="fas fa-book"></i>
+                <h3><a href="sem3.html">MODULE 2</a></h3>
+                <h3 class ="title"><b>Personal protection in work environment</b></h3>
+
+            </div>
+            <div class="box">
+
+                <i class="fas fa-book"></i>
+                <h3><a href="sem3.html">MODULE 3</a></h3>             
+                <h3 class ="title"><b>Safety issues in construction</b></h3>
+
+            </div>
+            <div class="box">
+
+                <i class="fas fa-book"></i>
+                <h3><a href="sem3.html">MODULE 4</a></h3>
+                <h3 class ="title"><b>Safety hazards in machines</b></h3>
+
+            </div> 
+            <div class="box">
+
+                <i class="fas fa-book"></i>
+                <h3><a href="sem3.html">MODULE 5 </a></h3>
+                <h3 class ="title"><b>Hazard identification and analysis</b></h3>
+
+            </div>
+            <div class="box">
+
+                <i class="fas fa-book"></i>
+                <h3><a href="sem3.html">PREVIOUS YEAR QUESTION PAPERS</a></h3>
+            </div>
+            <div class="box">
+
+                <i class="fas fa-book"></i>
+                <h3><a href="sem3.html">SYLLABUS</a></h3>
+            </div>
+            </div>
+            <h3 class="heading"><b>INDUSTRIAL SAFETY ENGINEERING(S7)</b></h3>
+            <h5 class="title"><b>module1 to module5</b></h5>
+            <div class="box1">
+                <iframe width="450" height="250" src="https://www.youtube.com/embed/videoseries?list=PLw_YSaGvHWbl7ZFBJlZMML3kILZmuMHsh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="450" height="250" src="https://www.youtube.com/embed/VI1OleiRP6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>    
+</body>
+</html>
+<script>
+    function adjustIframeSize() {
+      var iframes = document.getElementsByTagName('iframe');
+      var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+
+      for (var i = 0; i < iframes.length; i++) {
+        var iframe = iframes[i];
+        var iframeWidth = Math.min(viewportWidth - 20, 450); // Adjust the maximum width as needed
+        var iframeHeight = (iframeWidth / 450) * 250; // Maintain the aspect ratio
+
+        iframe.style.width = iframeWidth + 'px';
+        iframe.style.height = iframeHeight + 'px';
+      }
+    }
+
+    // Call the function initially
+    adjustIframeSize();
+
+    // Call the function whenever the window is resized
+    window.addEventListener('resize', adjustIframeSize);
+  </script>
+

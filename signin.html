@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in Form</title>
+    <link rel="stylesheet" href="signin-style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="inner-box">
+          <div class="forms-wrap">
+            <form action="index.html" autocomplete="off" class="sign-in-form" id="card">
+              <div class="logo">
+                <img src="final.png" alt="logo" />
+              </div>
+
+              <div class="heading">
+                <h2>Welcome Back</h2>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                    id="username"
+                  />
+                  <label>Username</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                    id="password"
+                  />
+                  <label>Password</label>
+                </div>
+
+                <input type="submit" value="Sign In" class="sign-btn" />
+              </div>
+            </form>
+            <p id="errorMessage" class="error"></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+<script>
+  const inputs = document.querySelectorAll(".input-field");
+
+  inputs.forEach((inp) => {
+    inp.addEventListener("focus", () => {
+      inp.classList.add("active");
+    });
+  });
+</script>
