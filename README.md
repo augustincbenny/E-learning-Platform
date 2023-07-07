@@ -1,7 +1,7 @@
 👷 BUILDING 
 <br/>
 <p align="center">
-    <img src="eventportal/static/img/final.png" alt="Logo" width="300" height="100">
+    <img src="Jyothi Logo (1).png" alt="Logo" width="300" height="100">
     <h1 align="center">E-Learning Platform For JEC</h1>
 
   </a>
