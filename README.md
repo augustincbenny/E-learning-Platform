@@ -8,7 +8,7 @@
 ✨ Live demo : (https://augustincbenny.github.io/E-learning-Platform/)
 <br/>
 <p align="center">
-    <img src="Jyothi Logo (1).png" alt="Logo" width="300" height="100">
+    <img src="final.png" alt="Logo" width="300" height="100">
    
 
   </a>
