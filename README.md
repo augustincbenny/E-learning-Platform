@@ -1,4 +1,11 @@
-👷 BUILDING 
+<h1 align="center">JEC Placement Management Web Application</h1>
+<p>
+    <a href="#" target="_blank">
+        <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+    </a>
+</p>
+
+✨ Live demo : (https://augustincbenny.github.io/E-learning-Platform/)
 <br/>
 <p align="center">
     <img src="Jyothi Logo (1).png" alt="Logo" width="300" height="100">
