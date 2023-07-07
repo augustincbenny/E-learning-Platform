@@ -1,4 +1,4 @@
-<h1 align="center">JEC Placement Management Web Application</h1>
+<h1 align="center">E-Learning Platform For JEC</h1>
 <p>
     <a href="#" target="_blank">
         <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
