@@ -11,7 +11,7 @@
 
 ## Introduction
 
-**This is a user-friendly website created with HTML, CSS, Js, and Appscript tailored to  offer courses, tutorials, and resources to help students learn and enhance their skills in various CS-related topics. The website provides a seamless experience for students to gain notes of various subjects and they can also watch lecture classes**
+**This is a user-friendly website created with HTML, CSS, Js, and Appscript tailored to  offer courses, tutorials, and resources to help students learn and enhance their skills in various CS-related topics. The website provides a seamless experience for students of computer science department to refer the notes and resources through this platform and students can also upload notes,lecture classes to thie website so that other students can refer it for their academics.**
 
    
 
